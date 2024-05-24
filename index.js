@@ -11,7 +11,7 @@ const middleware = jsonServer.defaults()
 const route = jsonServer.router('restaurants.json')
 
 // set up pot for running server app
-const PORT = 3000 || process.env.PORT
+const PORT = 3001 || process.env.PORT
 
 
 MPServer.use(middleware)
